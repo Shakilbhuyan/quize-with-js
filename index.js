@@ -22,9 +22,10 @@ startQuiz.addEventListener("click", () => {
   countDown.classList.add("flex");
 
   let x = setInterval(() => {
+    let countDown = document.querySelector("#countDownContainer");
     if (counterNum < 0) {
-      coutDown.classList.remove("flex");
-      coutDown.classList.add("hidden");
+      countDown .classList.remove("flex");
+      countDown.classList.add("hidden");
       counterNum = 3;
       count = 0;
       timer = null;
@@ -74,7 +75,7 @@ const displayQuiz = (data) => {
 };
 
 // EventListener for quiz submit button
-document.querySelector("#submit").addEventlistener("click", () => {
+document.querySelector("#submit").addEventlistener("click", () =>{
   if (answers.length < 6) {
     return;
   }
