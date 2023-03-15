@@ -188,5 +188,5 @@ document.querySelector("#submit").addEventListener('click', () =>{
 // add event Listaner to blog button
 
 document.getElementById('blog').addEventListener('click',function(){
-  console.log('btn clicked')
+  window.location.href = 'blog.html';
 })
