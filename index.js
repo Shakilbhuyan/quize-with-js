@@ -185,8 +185,7 @@ document.querySelector("#submit").addEventListener('click', () =>{
   window.scrollTo(0, 0);
 });
 
-// add event Listaner to blog button
-
+// add event Listaner to blog button             
 document.getElementById('blog').addEventListener('click',function(){
   window.location.href = 'blog.html';
 })
