@@ -5,17 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog</title>
+    <style>
+        body{
+            background-color: black;
+            margin: 20px;
+            padding: 18px;
+            color: #ffffff;
+        };
+        
+    </style>
 </head>
 <body>
     <div>
-        <h1>Write about  Map,Filter,foreach and find.</h1>
+        <h1>1.Write about  Map,Filter,foreach and find.</h1>
         <p>Map: Map is a method that applies a function to each element of an array and returns a new array with the results.</p>
         <p>Filter: Filter is a method that creates a new array with all the elements that pass a certain condition specified by a function.</p>
         <p>Foreach: forEach is a method that executes a function for each element of an array. It does not return a new array.</p>
         <p>Find: Find is a method that returns the first element in an array that satisfies a certain condition specified by a function.</p>
     </div>
     <div>
-        <h1> Differances between Local storage session storage and cookie.</h1>
+        <h1>2. Differances between Local storage session storage and cookie.</h1>
         <p>Local storage, session storage, and cookies are all mechanisms available in modern web browsers to store data temporarily or permanently. Here are the key differences between them:</p>
         <ol>
             <li>Scope: Local storage and session storage are both HTML5 web storage mechanisms, which allow you to store data locally on the user's device. However, local storage persists even after the browser is closed and reopened, while session storage is cleared when the browser session ends. Cookies, on the other hand, are also stored locally on the user's device, but they are sent to the server with every HTTP request, allowing for cross-site persistence.</li>
@@ -26,17 +35,17 @@
         </ol>
     </div>
     <div>
-        <h1>What is Event Loop?</h1>
+        <h1>3.What is Event Loop?</h1>
         <p>Event Loop is a mechanism that allows JavaScript to handle asynchronous operations in a single-threaded environment. In a typical web browser environment, JavaScript code runs on a single thread, which means that only one task can be executed at a time. However, JavaScript often needs to perform tasks that take a significant amount of time, such as fetching data from a server or waiting for a user input, without blocking the execution of other code.</p>
     </div>
     <div>
-        <h1>Illustrate the function 'quizTimer'.</h1>
+        <h1>4.Illustrate the function 'quizTimer'.</h1>
       <p>If dismiss is true, the function clears the interval timer by calling the clearInterval() method and then returns, effectively stopping the timer.
 
         If dismiss is not true, the function does nothing and allows the timer to continue running.</p>
     </div>
     <div>
-        <h1>Illustrate the function 'chooseQuiz'.</h1>
+        <h1>5.Illustrate the function 'chooseQuiz'.</h1>
         <p>The function first checks whether the user has already answered the current quiz by using the find() method to search for an answer object in the answers array with an id property matching the id property of the quiz at the given index.</p>
     </div>
 </body>
